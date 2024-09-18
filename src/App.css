@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
+
+  .custom-input {
+    border: 2px solid #ccc;       
+    border-radius: 10px;            
+    padding: 10px;                  
+    width: 100%;                  
+    box-sizing: border-box;        
+    font-size: 16px;                
+}
+
+.custom-input:focus {
+    border-color: #007bff;          
+    outline: none;                  
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional: add shadow on focus */
+}
+
+.custom-bg-color {
+
+    background-image: url('https://blog.hubspot.com/hs-fs/hubfs/how-to-introduce-yourself-over-email-1.jpg?width=595&height=400&name=how-to-introduce-yourself-over-email-1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+
+ 
+}
+
+.formbg{
+  background-color: #168d8f;
+}
+
+.bgr{
+  background-color: #78073c;
+}
+.limitbg{
+ background-color: #d52e14;
+ padding: 3px;
+ padding-top:3px;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 14px;
+}
+
+.signmbg{
+  background-color: #0a5474;
+  border-radius: 10px;
+}
+
+footer{
+  background-color: #282c34;
+
+  
+}
