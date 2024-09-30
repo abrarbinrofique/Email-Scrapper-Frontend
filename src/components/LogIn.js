@@ -1,7 +1,7 @@
 import React, {useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from './AuthContext'; 
-
+import { Link } from 'react-router-dom';
 
 const LogIn = () => {
     const [username, setUsername] = useState('');
@@ -88,6 +88,8 @@ const LogIn = () => {
         />
         <button className='custom-input btn btn-warning' type="submit">Login</button>
       </form>
+
+      Dont have an account? <Link to="/signup" className='text-dark'>Signup</Link>
 
               </div>
             </div>

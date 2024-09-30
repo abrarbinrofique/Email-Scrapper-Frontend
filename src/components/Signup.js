@@ -65,7 +65,7 @@ const SignUp = () => {
 
                     {error && <p style={{ color: 'red' }}>{error}</p>}
 
-                    <form className='m-5' onSubmit={handleSubmit}>
+                    <form className='signupforms' onSubmit={handleSubmit}>
                       <input
                         type="text"
                         name="first_name"

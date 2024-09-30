@@ -39,7 +39,7 @@ const History = () => {
                 </div>
               ))
             ) : (
-              <p>No data available.</p>
+              <p>No data at this Momment</p>
             )}
           </ul>
         </div>

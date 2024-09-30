@@ -25,7 +25,7 @@ const History = () => {
   }, [userid]); // Dependency array with userid
 
   return (
-    <div className="accordion" id="accordionExample">
+    <div className="accordion my-5" id="accordionExample">
       <div className="accordion-item">
         <h2 className="accordion-header">
           <button
